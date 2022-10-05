@@ -1,0 +1,14 @@
+//ESTATICOS
+
+class Sistema {
+    static version () {
+        return 1.0
+    }
+
+    iniciarSesion() {
+        console.log('Se ha iniciado sesion')
+    }
+}
+console.log(Sistema.version)
+//Sistema.iniciarSesion
+new Sistema().iniciarSesion();
